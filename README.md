@@ -4,7 +4,7 @@ This bot will pull a stream of tweets based on rules you set and automatically r
 I built this bot in order to help combat scam bots in twitter, I am using this to look for the scam messages on the Tiktok support page and warn the original poster that it may be a scam.
 
 ## Setup
-In order to yous this bot you will need to have a Twitter developer account, this can be requested from here https://developer.twitter.com/
+In order to use this bot you will need to have a Twitter developer account, this can be requested from here https://developer.twitter.com/
 
 
 once made you will need your API key, secret and generate a Bearer token. 
