@@ -198,14 +198,9 @@ def main():
     # below are some sample rules. it will match if the tweet contains any words of each line. 
     # The -from operator indicates to ignore tweets from the account specified after it
     sample_rules = [
-        {"value": "TikTokSupport DM Instagram -from:cybersafetybot1"},
-        {"value": "TikTokSupport on Instagram helped me -from:cybersafetybot1"},
-        {"value": "TikTokSupport via IG -from:cybersafetybot1"},
-        {"value": "TikTokSupport inbox recover -from:cybersafetybot1"},
-        {"value": "TikTokSupport referred to unbanned -from:cybersafetybot1"},
-        {"value": "TikTokSupport send a message to -from:cybersafetybot1"},
-        {"value": "TikTokSupport recovered my account for me -from:cybersafetybot1"},
-        {"value": "TikTokSupport my account got same issues -from:cybersafetybot1"},
+        #################################
+        ##INSERT RULES HERE. SEE README##
+        #################################
     ]
     oauth = get_oauth(consumer_key, consumer_secret) # generates the Oauth required to send a tweet
     rules = get_rules() # gets current stored rules
